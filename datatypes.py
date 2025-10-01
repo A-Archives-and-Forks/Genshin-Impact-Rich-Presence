@@ -1,5 +1,5 @@
 """
-Contains data types modelling .csv files in ./data/
+Contains data types modeling .csv files in ./data/
 
 The constructors for these classes must have arguments listed in the same order as the columns in the .csv files.
 """
@@ -602,7 +602,7 @@ class Data(PatternMatchingEventHandler):
 
         Immediately reloads data once file is modified.
         """
-        # XXX: For some weird reason, watchdog sends
+        # XXX: For some odd reason, watchdog sends
         # file modified events twice in very quick
         # succession. This hack attempts to prevent this,
         # but there's no guarantee of it working.

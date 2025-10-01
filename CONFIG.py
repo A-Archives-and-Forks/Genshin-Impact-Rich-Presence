@@ -22,7 +22,7 @@ WANDERER_NAME = "Wanderer"
 For detecting when Wanderer is active. (Spoiler: You can rename wanderer)
 """
 
-GAME_RESOLUTION = 1440
+GAME_RESOLUTION = 1080
 """
 The resolution you're running genshin at (number corresponds to the
 resolution height in pixels).
